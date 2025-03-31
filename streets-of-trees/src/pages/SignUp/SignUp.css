@@ -1,0 +1,145 @@
+.signup-container {
+  padding: 2rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.signup-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.signup-title {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  gap: 1.25rem;
+  width: 85%; 
+  margin: 0 auto;
+}
+
+.signup-field {
+  margin-bottom: 0;
+  text-align: right;
+  position: relative;
+}
+
+.signup-field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.signup-field input {
+  padding: 0.75rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  background-color: #f8fafc;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto
+}
+
+.signup-field input:focus {
+  outline: none;
+  border-color: #74c59f;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(116, 197, 159, 0.2);
+}
+
+.signup-field input:hover {
+  border-color: #cbd5e0;
+}
+
+.signup-button {
+  background-color: #74c59f;
+  color: white;
+  padding: 0.875rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto
+}
+
+.signup-button:hover {
+  background-color: #5eb389;
+  transform: translateY(-1px);
+}
+
+.signup-button:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 480px) {
+  .signup-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .signup-title {
+    font-size: 1.5rem;
+  }
+
+  .signup-field input {
+    padding: 0.625rem;
+  }
+}
+
+
+
+.signup-field input:invalid:focus {
+  box-shadow: 0 0 0 3px rgba(252, 129, 129, 0.2);
+}
+
+.signup-button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+.signup-prompt {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.login-link {
+  color: #5eb389;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-link:hover {
+  color:#5eb389;
+}

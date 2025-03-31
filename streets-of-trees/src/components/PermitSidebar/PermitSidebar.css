@@ -1,0 +1,54 @@
+.permit-sidebar {
+    position: fixed;
+    left: 0; 
+    top: 0;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.permit-sidebar.open {
+    transform: translateX(0); 
+}
+
+.permit-sidebar h2 {
+    text-align: center;
+}
+
+.permit-details {
+    margin-top: 20px;
+}
+
+.permit-details p {
+    margin: 10px 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #74c59f;
+    color: white;
+    border-radius: 4px;
+
+}
+
+.close-button:hover {
+    background-color: #5ea081;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+.clickable-row:hover {
+    background-color: #f0f0f0;
+}

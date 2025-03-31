@@ -1,0 +1,111 @@
+.notifications-container {
+    padding: 2rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    direction: rtl;
+}
+
+.notifications-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.notifications-instructions {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 1rem;
+}
+
+.subscription-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.subscription-input input {
+    padding: 0.75rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 60%;
+    text-align: right;
+}
+
+.subscription-input button {
+    background-color: #74c59f;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.subscription-input button:hover {
+    background-color: #5eb389;
+}
+
+.subscriptions-list {
+    margin-top: 1rem;
+}
+
+.subscription-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.delete-icon {
+    color: #e36668;
+    cursor: pointer;
+}
+
+.no-subscriptions {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
+.subscription-input .select-wrapper {
+    position: relative;
+    width: 60%;
+  }
+  
+  .subscription-input select {
+    padding: 0.75rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: right;
+    appearance: none;
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+  
+  .subscription-input select:focus {
+    outline: none;
+    border-color: #74c59f;
+    box-shadow: 0 0 0 3px rgba(116, 197, 159, 0.2);
+  }
+  
+  .subscription-input .select-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #424242;
+    pointer-events: none;
+  }
+  

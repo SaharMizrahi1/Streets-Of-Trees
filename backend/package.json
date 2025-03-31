@@ -1,0 +1,27 @@
+{
+    "name": "tree-permit-checker",
+    "version": "1.0.0",
+    "description": "Backend service to check tree permits and notify users via Smoove",
+    "main": "tree-permit-checker.js",
+    "scripts": {
+        "start": "node tree-permit-checker.js",
+        "run-now": "node tree-permit-checker.js --run-now",
+        "single-run": "node tree-permit-checker.js --single-run"
+    },
+    "keywords": [
+        "tree",
+        "permit",
+        "notifications",
+        "firebase",
+        "smoove",
+        "cron"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.8.3",
+        "dotenv": "^16.4.7",
+        "firebase-admin": "^11.11.1",
+        "node-cron": "^3.0.3"
+    }
+}
