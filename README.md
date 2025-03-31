@@ -46,13 +46,13 @@ cd tree-cutting-permits
 #### Install Dependencies
 
 ```bash
-cd frontend
+cd streets-of-trees
 npm install
 ```
 
 #### Create `.env` File for Frontend
 
-In the `frontend` folder, create a `.env` file:
+In the `streets-of-trees` folder, create a `.env` file:
 
 ```
 REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
